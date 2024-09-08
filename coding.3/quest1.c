@@ -1,6 +1,11 @@
+#include <unistd.h>
+#include <stdio.h>
+
 int main()
 {
-	int x = 0;
-	fork();
-	printf("%d", x);
+        int x = 10;
+        int y = fork();
+        x = x + y;
+        printf("%d", x);
+        printf("%d", y);
 }
