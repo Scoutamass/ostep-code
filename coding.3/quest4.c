@@ -10,3 +10,4 @@ int main()
 		execvp("bin/ls", args);
 	}
 }
+//Because there are many situations that could call for slightly different ways to execute a program

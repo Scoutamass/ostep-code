@@ -9,3 +9,4 @@ int main()
 	int y = wait(NULL);
 	printf(";%d:%d;", x, y);
 }
+//Wait() returns the pid of the process that was waited for, if used when there are no children, it returns -1

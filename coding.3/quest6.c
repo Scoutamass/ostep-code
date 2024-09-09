@@ -9,3 +9,4 @@ int main()
 	if(x > 0) waitpid(x, &y, WNOHANG);
 	printf("%d", x);
 }
+//there is seemingly no reason to have waitpid, since the same thing can be accomplished with wait()

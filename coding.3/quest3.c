@@ -14,3 +14,4 @@ int main()
 	wait(NULL);
 	printf("goodbye");
 }
+//no the only way to make the parent wait for the child consistently is to use wait

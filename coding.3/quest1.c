@@ -9,3 +9,4 @@ int main()
         printf("%d", x);
         printf("%d", y);
 }
+//the value carries over from the parent to the child. The value can sometimes get overwritten and have the wrong value
